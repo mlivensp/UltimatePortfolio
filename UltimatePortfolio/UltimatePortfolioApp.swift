@@ -23,7 +23,7 @@ struct UltimatePortfolioApp: App {
             }
             .environment(\.managedObjectContext, dataController.container.viewContext)
             .environmentObject(dataController)
-            .onChangeOf(of: scenePhase) { phase in
+            .onChange(of: scenePhase) { phase in
                 if phase != .active {
                     dataController.save()
                 }

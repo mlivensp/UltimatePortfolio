@@ -32,6 +32,7 @@ struct IssueRow: View {
                 
                 VStack(alignment: .trailing) {
                     Text(issue.issueCreationDate.formatted(date: .numeric, time: .omitted))
+                        .font(.subheadline)
                     
                     if issue.completed {
                         Text("CLOSED")
