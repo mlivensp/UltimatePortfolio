@@ -22,6 +22,7 @@
 		DD9634B92C33C3A8002F3C11 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD9634B72C33C3A8002F3C11 /* Localizable.strings */; };
 		DD9634BD2C3436DF002F3C11 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = DD9634BB2C3436DF002F3C11 /* Localizable.stringsdict */; };
 		DD9634CA2C34379B002F3C11 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = DD9634C92C34379B002F3C11 /* Awards.json */; };
+		DDEFBB622C366BBE003976F9 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFBB612C366BBE003976F9 /* UltimatePortfolioTests.swift */; };
 		DDF1585D2C343E5600304EAC /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */; };
 		DDF1585F2C34413000304EAC /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1585E2C34413000304EAC /* IssueViewToolbar.swift */; };
 		DDF158612C34429000304EAC /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF158602C34429000304EAC /* ContentViewToolbar.swift */; };
@@ -35,6 +36,16 @@
 		DDF807AD2C2E785D00B0C198 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDF807AB2C2E785D00B0C198 /* Main.xcdatamodeld */; };
 		DDF807AF2C2E7AC900B0C198 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF807AE2C2E7AC900B0C198 /* DataController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEFBB632C366BBE003976F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF807912C2E77D900B0C198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF807982C2E77D900B0C198;
+			remoteInfo = UltimatePortfolio;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD1BB7B12C2F05A700EB1826 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
@@ -54,6 +65,8 @@
 		DD9634BF2C343726002F3C11 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DD9634C02C343726002F3C11 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		DD9634C82C34379B002F3C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
+		DDEFBB5F2C366BBE003976F9 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEFBB612C366BBE003976F9 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		DDF1585B2C3437D600304EAC /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
 		DDF1585E2C34413000304EAC /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
@@ -69,10 +82,17 @@
 		DDF807A42C2E77DB00B0C198 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDF807AC2C2E785D00B0C198 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		DDF807AE2C2E7AC900B0C198 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		DDF807B02C2E833D00B0C198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDF807B02C2E833D00B0C198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DDEFBB5C2C366BBE003976F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDF807962C2E77D900B0C198 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,10 +103,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDEFBB542C3667CC003976F9 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DDF807B02C2E833D00B0C198 /* Info.plist */,
+				DDF807AB2C2E785D00B0C198 /* Main.xcdatamodeld */,
+				DDF807A22C2E77DB00B0C198 /* UltimatePortfolio.entitlements */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DDEFBB552C366843003976F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD9634AD2C331611002F3C11 /* Bundle-Decodable.swift */,
+				DD1BB7B72C2F92F800EB1826 /* Issue-CoreDataHelpers.swift */,
+				DD1BB7B92C2F953300EB1826 /* Tag-CoreDataHelpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDEFBB562C36685C003976F9 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				DD9634B72C33C3A8002F3C11 /* Localizable.strings */,
+				DD9634BB2C3436DF002F3C11 /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		DDEFBB572C36689B003976F9 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BB7B52C2F086E00EB1826 /* Filter.swift */,
+				DD1BB7B12C2F05A700EB1826 /* SidebarView.swift */,
+				DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */,
+				DDF158642C34DCF400304EAC /* SmartFilterRow.swift */,
+				DDF158662C34DDA300304EAC /* UserFilterRow.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		DDEFBB582C3668A3003976F9 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8079E2C2E77D900B0C198 /* ContentView.swift */,
+				DDF158602C34429000304EAC /* ContentViewToolbar.swift */,
+				DD1BB7BB2C2FCCF000EB1826 /* IssueRow.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		DDEFBB592C3668AB003976F9 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BB7B32C2F05B100EB1826 /* DetailView.swift */,
+				DD1BB7BD2C304AD800EB1826 /* IssueView.swift */,
+				DDF1585E2C34413000304EAC /* IssueViewToolbar.swift */,
+				DD1BB7BF2C304AE400EB1826 /* NoIssueView.swift */,
+				DDF158622C3444C800304EAC /* TagsMenuView.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		DDEFBB5A2C3668B2003976F9 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				DD9634B32C333A04002F3C11 /* Award.swift */,
+				DD9634C92C34379B002F3C11 /* Awards.json */,
+				DD9634B52C333B3D002F3C11 /* AwardsView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		DDEFBB602C366BBE003976F9 /* UltimatePortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEFBB612C366BBE003976F9 /* UltimatePortfolioTests.swift */,
+			);
+			path = UltimatePortfolioTests;
+			sourceTree = "<group>";
+		};
 		DDF807902C2E77D900B0C198 = {
 			isa = PBXGroup;
 			children = (
 				DDF8079B2C2E77D900B0C198 /* UltimatePortfolio */,
+				DDEFBB602C366BBE003976F9 /* UltimatePortfolioTests */,
 				DDF8079A2C2E77D900B0C198 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				DDF807992C2E77D900B0C198 /* UltimatePortfolio.app */,
+				DDEFBB5F2C366BBE003976F9 /* UltimatePortfolioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,35 +205,18 @@
 		DDF8079B2C2E77D900B0C198 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				DDEFBB572C36689B003976F9 /* Filters */,
+				DDEFBB582C3668A3003976F9 /* Issues */,
+				DDEFBB592C3668AB003976F9 /* Editing */,
+				DDEFBB5A2C3668B2003976F9 /* Awards */,
+				DDEFBB552C366843003976F9 /* Extensions */,
+				DDEFBB562C36685C003976F9 /* Localization */,
+				DDEFBB542C3667CC003976F9 /* Configuration */,
 				DDF8079C2C2E77D900B0C198 /* UltimatePortfolioApp.swift */,
-				DDF807AB2C2E785D00B0C198 /* Main.xcdatamodeld */,
 				DDF807AE2C2E7AC900B0C198 /* DataController.swift */,
-				DD1BB7B12C2F05A700EB1826 /* SidebarView.swift */,
-				DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */,
-				DDF158642C34DCF400304EAC /* SmartFilterRow.swift */,
-				DDF158662C34DDA300304EAC /* UserFilterRow.swift */,
-				DDF8079E2C2E77D900B0C198 /* ContentView.swift */,
-				DDF158602C34429000304EAC /* ContentViewToolbar.swift */,
-				DD1BB7BB2C2FCCF000EB1826 /* IssueRow.swift */,
-				DD1BB7BD2C304AD800EB1826 /* IssueView.swift */,
-				DDF1585E2C34413000304EAC /* IssueViewToolbar.swift */,
-				DDF158622C3444C800304EAC /* TagsMenuView.swift */,
-				DD9634AD2C331611002F3C11 /* Bundle-Decodable.swift */,
-				DD9634B32C333A04002F3C11 /* Award.swift */,
-				DD1BB7B32C2F05B100EB1826 /* DetailView.swift */,
-				DD1BB7B52C2F086E00EB1826 /* Filter.swift */,
-				DD1BB7B72C2F92F800EB1826 /* Issue-CoreDataHelpers.swift */,
-				DD1BB7B92C2F953300EB1826 /* Tag-CoreDataHelpers.swift */,
-				DDF807B02C2E833D00B0C198 /* Info.plist */,
 				DDF807A02C2E77DB00B0C198 /* Assets.xcassets */,
-				DDF807A22C2E77DB00B0C198 /* UltimatePortfolio.entitlements */,
-				DDF807A32C2E77DB00B0C198 /* Preview Content */,
-				DD1BB7BF2C304AE400EB1826 /* NoIssueView.swift */,
-				DD9634C92C34379B002F3C11 /* Awards.json */,
 				DD9634AF2C33395E002F3C11 /* Colors.xcassets */,
-				DD9634B52C333B3D002F3C11 /* AwardsView.swift */,
-				DD9634B72C33C3A8002F3C11 /* Localizable.strings */,
-				DD9634BB2C3436DF002F3C11 /* Localizable.stringsdict */,
+				DDF807A32C2E77DB00B0C198 /* Preview Content */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -146,6 +232,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DDEFBB5E2C366BBE003976F9 /* UltimatePortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEFBB652C366BBE003976F9 /* Build configuration list for PBXNativeTarget "UltimatePortfolioTests" */;
+			buildPhases = (
+				DDEFBB5B2C366BBE003976F9 /* Sources */,
+				DDEFBB5C2C366BBE003976F9 /* Frameworks */,
+				DDEFBB5D2C366BBE003976F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEFBB642C366BBE003976F9 /* PBXTargetDependency */,
+			);
+			name = UltimatePortfolioTests;
+			productName = UltimatePortfolioTests;
+			productReference = DDEFBB5F2C366BBE003976F9 /* UltimatePortfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DDF807982C2E77D900B0C198 /* UltimatePortfolio */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDF807A82C2E77DB00B0C198 /* Build configuration list for PBXNativeTarget "UltimatePortfolio" */;
@@ -170,9 +274,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					DDEFBB5E2C366BBE003976F9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDF807982C2E77D900B0C198;
+					};
 					DDF807982C2E77D900B0C198 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -193,11 +301,19 @@
 			projectRoot = "";
 			targets = (
 				DDF807982C2E77D900B0C198 /* UltimatePortfolio */,
+				DDEFBB5E2C366BBE003976F9 /* UltimatePortfolioTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DDEFBB5D2C366BBE003976F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDF807972C2E77D900B0C198 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +330,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DDEFBB5B2C366BBE003976F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEFBB622C366BBE003976F9 /* UltimatePortfolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDF807952C2E77D900B0C198 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +367,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEFBB642C366BBE003976F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF807982C2E77D900B0C198 /* UltimatePortfolio */;
+			targetProxy = DDEFBB632C366BBE003976F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DD9634B72C33C3A8002F3C11 /* Localizable.strings */ = {
@@ -275,6 +407,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DDEFBB662C366BBE003976F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XKQ86X66K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitpicker.UltimatePortfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatePortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UltimatePortfolio";
+			};
+			name = Debug;
+		};
+		DDEFBB672C366BBE003976F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XKQ86X66K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitpicker.UltimatePortfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatePortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UltimatePortfolio";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		DDF807A62C2E77DB00B0C198 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -396,7 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -404,7 +577,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -435,7 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -443,7 +616,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -472,6 +645,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DDEFBB652C366BBE003976F9 /* Build configuration list for PBXNativeTarget "UltimatePortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEFBB662C366BBE003976F9 /* Debug */,
+				DDEFBB672C366BBE003976F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DDF807942C2E77D900B0C198 /* Build configuration list for PBXProject "UltimatePortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,8 +681,7 @@
 				DDF807AC2C2E785D00B0C198 /* Main.xcdatamodel */,
 			);
 			currentVersion = DDF807AC2C2E785D00B0C198 /* Main.xcdatamodel */;
-			name = Main.xcdatamodeld;
-			path = "/Volumes/X9 Pro/Projects/Hacking WIth Swift/UltimatePortfolio/UltimatePortfolio/Main.xcdatamodeld";
+			path = Main.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
