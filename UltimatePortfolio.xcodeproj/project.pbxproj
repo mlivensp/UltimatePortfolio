@@ -23,6 +23,7 @@
 		DD9634BD2C3436DF002F3C11 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = DD9634BB2C3436DF002F3C11 /* Localizable.stringsdict */; };
 		DD9634CA2C34379B002F3C11 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = DD9634C92C34379B002F3C11 /* Awards.json */; };
 		DDEFBB622C366BBE003976F9 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFBB612C366BBE003976F9 /* UltimatePortfolioTests.swift */; };
+		DDEFBB692C366E9C003976F9 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFBB682C366E9C003976F9 /* AssetTests.swift */; };
 		DDF1585D2C343E5600304EAC /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */; };
 		DDF1585F2C34413000304EAC /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1585E2C34413000304EAC /* IssueViewToolbar.swift */; };
 		DDF158612C34429000304EAC /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF158602C34429000304EAC /* ContentViewToolbar.swift */; };
@@ -67,6 +68,7 @@
 		DD9634C82C34379B002F3C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		DDEFBB5F2C366BBE003976F9 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEFBB612C366BBE003976F9 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
+		DDEFBB682C366E9C003976F9 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
 		DDF1585B2C3437D600304EAC /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
 		DDF1585E2C34413000304EAC /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				DDEFBB612C366BBE003976F9 /* UltimatePortfolioTests.swift */,
+				DDEFBB682C366E9C003976F9 /* AssetTests.swift */,
 			);
 			path = UltimatePortfolioTests;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDEFBB692C366E9C003976F9 /* AssetTests.swift in Sources */,
 				DDEFBB622C366BBE003976F9 /* UltimatePortfolioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
