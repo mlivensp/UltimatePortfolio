@@ -24,13 +24,14 @@ struct ContentView: View {
             suggestedTokens: .constant(dataController.suggestedFilterTokens),
             prompt: "Filter issues, or type # to add tags"
         ) { tag in
-                Text(tag.tagName)
+            Text(tag.tagName)
         }
         .toolbar(content: ContentViewToolbar.init)
     }
 
     func delete(_ offsets: IndexSet) {
         let issues = dataController.issuesForSelectedFilter()
+
         for offset in offsets {
             let item = issues[offset]
             dataController.delete(item)

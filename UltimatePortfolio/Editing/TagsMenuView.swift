@@ -12,6 +12,7 @@ struct TagsMenuView: View {
     @ObservedObject var issue: Issue
 
     var body: some View {
+        // show selected tags first
         Menu {
             ForEach(issue.issueTags) { tag in
                 Button {
@@ -21,6 +22,7 @@ struct TagsMenuView: View {
                 }
             }
 
+            // now show unselected tags
             let otherTags = dataController.missingTags(from: issue)
 
             if otherTags.isEmpty == false {

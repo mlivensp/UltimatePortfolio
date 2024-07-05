@@ -9,7 +9,7 @@ import Foundation
 
 extension Issue {
     var issueTitle: String {
-        get { title ?? ""}
+        get { title ?? "" }
         set { title = newValue }
     }
 
@@ -32,7 +32,7 @@ extension Issue {
     }
 
     var issueTagsList: String {
-        guard let tags else { return "No tags"}
+        guard let tags else { return "No tags" }
 
         if tags.count == 0 {
             return "No tags"
@@ -56,6 +56,7 @@ extension Issue {
     static var example: Issue {
         let controller = DataController(inMemory: true)
         let viewContext = controller.container.viewContext
+        
         let issue = Issue(context: viewContext)
         issue.title = "Example Issue"
         issue.content = "This is an example issue."

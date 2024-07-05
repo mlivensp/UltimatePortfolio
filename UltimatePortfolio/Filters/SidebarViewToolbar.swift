@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SidebarViewToolbar: View {
     @EnvironmentObject var dataController: DataController
-    @State private var showingAwards: Bool = false
+    @State private var showingAwards = false
 
     var body: some View {
         Button(action: dataController.newTag) {
