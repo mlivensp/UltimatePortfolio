@@ -11,7 +11,7 @@ struct NoIssueView: View {
     @EnvironmentObject var dataController: DataController
 
     var body: some View {
-        Text("No issue selected")
+        Text("No Issue Selected")
             .font(.title)
             .foregroundStyle(.secondary)
 

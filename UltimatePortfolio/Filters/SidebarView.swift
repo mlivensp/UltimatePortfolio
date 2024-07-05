@@ -37,7 +37,7 @@ struct SidebarView: View {
             }
         }
         .toolbar(content: SidebarViewToolbar.init)
-        .alert("Rename Tag", isPresented: $renamingTag) {
+        .alert("Rename tag", isPresented: $renamingTag) {
             Button("OK", action: completeRename)
             Button("Cancel", role: .cancel) { }
             TextField("New name", text: $tagName)

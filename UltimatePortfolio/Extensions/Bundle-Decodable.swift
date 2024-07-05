@@ -19,7 +19,7 @@ extension Bundle {
         }
 
         guard let data = try? Data(contentsOf: url) else {
-            fatalError("Failed to load \(file) from bundle")
+            fatalError("Failed to load \(file) from bundle.")
         }
 
         let decoder = JSONDecoder()

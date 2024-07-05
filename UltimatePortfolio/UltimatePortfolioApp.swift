@@ -21,7 +21,6 @@ struct UltimatePortfolioApp: App {
             } detail: {
                 DetailView()
             }
-
             .environment(\.managedObjectContext, dataController.container.viewContext)
             .environmentObject(dataController)
             .onChange(of: scenePhase) { phase in

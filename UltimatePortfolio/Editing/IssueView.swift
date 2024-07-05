@@ -16,6 +16,7 @@ struct IssueView: View {
             Section {
                 VStack(alignment: .leading) {
                     TextField("Title", text: $issue.issueTitle, prompt: Text("Enter the issue title here"))
+                        .font(.title)
 
                     Text("**Modified:** \(issue.issueModificationDate.formatted(date: .long, time: .shortened))")
                         .foregroundStyle(.secondary)
@@ -35,7 +36,7 @@ struct IssueView: View {
 
             Section {
                 VStack(alignment: .leading) {
-                    Text("Basic information")
+                    Text("Basic Information")
                         .font(.title2)
                         .foregroundStyle(.secondary)
 
@@ -52,9 +53,7 @@ struct IssueView: View {
         .onReceive(issue.objectWillChange) { _ in
             dataController.queueSave()
         }
-        .onSubmit {
-            dataController.save()
-        }
+        .onSubmit(dataController.save)
         .toolbar {
             IssueViewToolbar(issue: issue)
         }
