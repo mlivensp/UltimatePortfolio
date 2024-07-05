@@ -57,7 +57,11 @@ final class AwardsTests: BaseTestCase {
             }
 
             let matches = awards.filter { award in
+<<<<<<< HEAD
+                award.criterion == "issues" && dataController.hasEarned(award: award)
+=======
                 award.criterion == "issue" && dataController.hasEarned(award: award)
+>>>>>>> 9e43e08f02f4a37c67fd3d3f44060b15e1f9c7aa
             }
 
             XCTAssertEqual(matches.count, count + 1, "Adding \(value) issues should unlock \(count + 1) awards.")
