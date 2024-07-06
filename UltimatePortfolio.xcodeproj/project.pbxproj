@@ -22,6 +22,7 @@
 		DD1BB7BC2C2FCCF000EB1826 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7BB2C2FCCF000EB1826 /* IssueRow.swift */; };
 		DD1BB7BE2C304AD800EB1826 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7BD2C304AD800EB1826 /* IssueView.swift */; };
 		DD1BB7C02C304AE400EB1826 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7BF2C304AE400EB1826 /* NoIssueView.swift */; };
+		DD58BB332C39AE7A00729345 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58BB322C39AE7A00729345 /* SidebarViewModel.swift */; };
 		DD9634AE2C331611002F3C11 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9634AD2C331611002F3C11 /* Bundle-Decodable.swift */; };
 		DD9634B12C33395E002F3C11 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9634AF2C33395E002F3C11 /* Colors.xcassets */; };
 		DD9634B42C333A05002F3C11 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9634B32C333A04002F3C11 /* Award.swift */; };
@@ -81,6 +82,7 @@
 		DD1BB7BB2C2FCCF000EB1826 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		DD1BB7BD2C304AD800EB1826 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		DD1BB7BF2C304AE400EB1826 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
+		DD58BB322C39AE7A00729345 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
 		DD9634AD2C331611002F3C11 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		DD9634AF2C33395E002F3C11 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DD9634B32C333A04002F3C11 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			children = (
 				DD1BB7B52C2F086E00EB1826 /* Filter.swift */,
 				DD1BB7B12C2F05A700EB1826 /* SidebarView.swift */,
+				DD58BB322C39AE7A00729345 /* SidebarViewModel.swift */,
 				DDF1585C2C343E5600304EAC /* SidebarViewToolbar.swift */,
 				DDF158642C34DCF400304EAC /* SmartFilterRow.swift */,
 				DDF158662C34DDA300304EAC /* UserFilterRow.swift */,
@@ -462,6 +465,7 @@
 				DD1BB7B82C2F92F800EB1826 /* Issue-CoreDataHelpers.swift in Sources */,
 				DD9634AE2C331611002F3C11 /* Bundle-Decodable.swift in Sources */,
 				DD1BB7B42C2F05B100EB1826 /* DetailView.swift in Sources */,
+				DD58BB332C39AE7A00729345 /* SidebarViewModel.swift in Sources */,
 				DDF807AF2C2E7AC900B0C198 /* DataController.swift in Sources */,
 				DDF158612C34429000304EAC /* ContentViewToolbar.swift in Sources */,
 				DD1BB7B22C2F05A700EB1826 /* SidebarView.swift in Sources */,
